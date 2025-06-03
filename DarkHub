@@ -8,7 +8,7 @@ gui.Name = "CoolUI"
 gui.Parent = Players.LocalPlayer:WaitForChild("PlayerGui")
 
 local main = Instance.new("Frame")
-main.Size = UDim2.new(0, 220, 0, 220) -- Increased size for premium message
+main.Size = UDim2.new(0, 220, 0, 220) 
 main.Position = UDim2.new(0.5, -110, 0.5, -110)
 main.BackgroundColor3 = Color3.fromRGB(20, 60, 180) -- Blue theme
 main.BorderSizePixel = 0
